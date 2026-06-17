@@ -502,3 +502,46 @@ This complements Session 005 priority list. Presence summary screen + NFC tap fl
 - Fall causation experiment design — not started
 
 _Next session: David Ferguson call outcome. Melissa reply. App Store submission status. One-number hook for Gully's operator conversation._
+
+---
+
+## Session 007 — 2026-06-16
+
+### Focus
+Automated agent team setup. Operational infrastructure for summer.
+
+### What Happened
+- Created private GitHub repo: `keveend10-del/sway-morgan`
+- Pushed all strategy docs + Gully's pilot CSVs to repo (source of truth for cloud agents)
+- Set up 5 scheduled cloud agents running on Anthropic infrastructure — Mac does not need to be on
+
+### Agent Team — Live
+
+| Agent | Schedule | Output |
+|---|---|---|
+| Morning Brief | Daily 8 AM ET | Priorities + metric + skip list + decision filter |
+| Competitor Intel | Tuesday 1 PM ET | Blackbird/Thanx/SevenRooms research → Google Drive |
+| GTM Agent | Wednesday 1 PM ET | Venue pipeline + 3 outreach scripts + follow-ups → Google Drive |
+| Content Agent | Thursday 1 PM ET | 3 LinkedIn posts + 5 X posts → Google Drive |
+| Friday Wrap | Friday 5 PM ET | Open action audit + carry-forwards |
+
+### Routine IDs
+- Morning Brief: `trig_017YPZYMQPMZ8jkcL1fs5itt`
+- Friday Wrap: `trig_019f3zHzTTFmuhov1JSc4GCK`
+- Competitor Intel: `trig_01Qn2Ght56crwZmvwhPYrn8v`
+- GTM Agent: `trig_01HU7py47FGpMHP2qEBzk2RH`
+- Content Agent: `trig_01AEbeHVKjFApyy5iNXfSkSw`
+- Manage all: https://claude.ai/code/routines
+
+### Key Habit
+After every Morgan session — commit and push SESSION_LOG.md so agents read current context.
+```
+git add SESSION_LOG.md && git commit -m "log: [date] [topic]" && git push
+```
+
+### Open
+- David Ferguson call outcome — log result
+- Melissa/Gully's LOI — still waiting
+- Brian Cain reply — pending
+- App Store submission status
+- Wednesday GTM agent fires today at 1 PM ET — check Google Drive for first deliverable
