@@ -1,0 +1,6 @@
+.claude/settings.json
+.claude/settings.local.json
+.vscode/
+morgan.code-workspace
+.DS_Store
+*.env
