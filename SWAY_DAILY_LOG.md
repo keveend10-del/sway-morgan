@@ -286,3 +286,47 @@ Journeyman Press (commercial printing, New Bedford) — Gina connecting Kev. Ent
 ## 6/12
 
 *Notes pending — Kev to fill in.*
+
+---
+
+## 6/16–6/17
+
+### Agent Infrastructure Built
+
+Set up full automated agent team running on Anthropic cloud. Mac does not need to be on.
+
+**GitHub repo created:** `keveend10-del/sway-morgan` — all strategy docs + Gully's pilot CSVs pushed. Source of truth for all cloud agents.
+
+**5 agents live:**
+- Morning Brief — daily 8 AM ET (day-aware, reads GitHub)
+- Competitor Intel — Tuesday 1 PM ET → Google Drive + ClickUp
+- GTM Agent — Wednesday 1 PM ET → Google Drive + ClickUp
+- Content Agent — Thursday 1 PM ET → Google Drive + ClickUp
+- Friday Wrap — Friday 5 PM ET → ClickUp
+
+**ClickUp integration:** All 5 agents create tasks in Project 1 (list 901414527892) when they finish. Check ClickUp for agent output log.
+
+**Disabled:** `sway-morning-briefing` (duplicate of Morning Brief)
+
+**Notion:** Needs `/mcp` auth to enable calendar time blocks — pending.
+
+**Usage credits:** Must enable at claude.ai/settings/billing for all 14 agents to fire (5/day cap otherwise).
+
+### YC Application Week
+
+Full YC prep doc created in Google Drive: "Sway — YC Application Week (June 17, 2026)"
+- 60-second video script (ready to record)
+- Delivery coaching + recording checklist
+- 10-slide deck outline with full copy
+- This week's checklist
+
+### Key Habit
+After every Morgan session: `git add SESSION_LOG.md && git commit -m "log: [date] [topic]" && git push`
+
+### Open
+- [ ] Enable usage credits — claude.ai/settings/billing
+- [ ] Run `/mcp` → connect Notion for calendar time blocks
+- [ ] Record YC video (5+ takes, send to 2 people outside Sway)
+- [ ] Fill raise amount on YC deck Slide 10
+- [ ] Add product screenshots to YC deck Slide 4
+- [ ] Meetings today: Michael Abdalla 1 PM, SCORE 2 PM — log outcomes
