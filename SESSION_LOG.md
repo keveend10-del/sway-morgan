@@ -55,14 +55,41 @@ Personal connection (Kev's roommate's father). Not Foundry. Spark Tank judge at 
 - Old Gina prep doc (deprecated): https://docs.google.com/document/d/1wXgHCYB5c_OTzZt0g1GSsjuC823ptQxq0yOI6gL2yuE/edit
 - Current Gina prep doc (use this): https://docs.google.com/document/d/1IAD6cjmKg7DsTDA0BYClqDGM7-QQsU_nQf6i1ARu6-8/edit
 
+### Foundry Catalyst Application — Deadline July 1 (11 days)
+
+Program details confirmed from application page:
+- 4-week intensive, September 2026 start
+- Demo day: last week of September
+- Pitch competition: October
+- Top 5 → HBS → $100K non-dilutive award
+- All founders receive investor/customer introductions
+
+Three scored criteria:
+1. **Defensibility** — hard to replicate, differentiated position
+2. **Traction** — concrete proof at stage (pilot data is exactly this)
+3. **Direction** — sharp milestones, realistic + ambitious vision
+
+Two requirements: (1) Bootcamp completion (Weeks 1–4), (2) strong application on all three criteria.
+They do NOT score simulation transcripts or in-Bootcamp pitch scores — genuine engagement matters.
+
+Eligible: <$500K revenue ✓, <$1M raised ✓, US-based ✓, Founder ✓
+
+**Framing flag:** Program says "deep tech founders" — do NOT use that label. Sway dropped it (Session 008 brand kit). Frame as participation infrastructure / Participation OS. Criteria don't require deep tech, just defensibility.
+
+**Deck status:** ~90% done per Kev. Video pitch format still TBD.
+
+**Immediate action:** Find and review actual application questions before writing anything. July 1 is 11 days out.
+
 ### Open
-- [ ] Reply to Deirdre today from kdelgado@mail.endicott.edu (draft in prep doc)
+- [x] Reply to Deirdre from kdelgado@mail.endicott.edu — DONE
 - [ ] Review Gina prep doc Sunday before Tuesday AM
 - [ ] June 24 Gina meeting — two tracks: Sway alignment + Delko business
   - Angle Center Instagram ask ($500/mo Delko retainer)
   - Journeyman Press intro follow-through
   - Incorporation support ask (~$200–600, Endicott covers as partner)
 - [ ] Legal Sprint Day 2 still outstanding
+- [ ] Catalyst application — confirm video pitch format + review application questions
+- [ ] Finalize deck for July 1 submission
 - [ ] Michael Abdalla call Friday 2026-06-27 at 11:30 AM
 - [ ] All prior open actions carry forward
 
