@@ -36,10 +36,33 @@ Two wins only:
 Key question: "What does Deirdre care most about heading into this role?"
 Don't pitch. Don't blend numbers. Lead Gully's 37.7% only.
 
+### Deirdre Sartorelli — Major Update
+
+Deirdre replied to Kev's email on June 19 within 1 hour. She was EIR at Endicott last year — already knows Kev and Sway, noticed the pivot. She proposed a three-way meeting: Kev + Gina + Deirdre, mid-July. Kev sent three dates (July 15, 17, 22). Target: July 22.
+
+This means June 24 Gina meeting is no longer about getting Deirdre access — it's about aligning with Gina before July 22 and handling Delko business.
+
+### Legal Entity Status
+
+Sway is NOT incorporated. No LLC, no C-Corp, no PIIA. Kev is solo founder — no external code contributors, no IP dispute risk. But no legal entity = no clean answer if investor asks. Plan: raise incorporation support with Gina June 24 as part of Endicott founding partner agreement. ($200–600 filing cost.)
+
+### David Ferguson — Corrected
+
+Personal connection (Kev's roommate's father). Not Foundry. Spark Tank judge at Endicott. Legal resource for IP/partnership structure. Pro bono ask in play.
+
+### Updated Artifacts
+
+- Old Gina prep doc (deprecated): https://docs.google.com/document/d/1wXgHCYB5c_OTzZt0g1GSsjuC823ptQxq0yOI6gL2yuE/edit
+- Current Gina prep doc (use this): https://docs.google.com/document/d/1IAD6cjmKg7DsTDA0BYClqDGM7-QQsU_nQf6i1ARu6-8/edit
+
 ### Open
-- [ ] Review Gina prep doc Sunday
-- [ ] Confirm Deirdre's actual email address
-- [ ] Legal Sprint Day 2 (IP tracker names)
+- [ ] Reply to Deirdre today from kdelgado@mail.endicott.edu (draft in prep doc)
+- [ ] Review Gina prep doc Sunday before Tuesday AM
+- [ ] June 24 Gina meeting — two tracks: Sway alignment + Delko business
+  - Angle Center Instagram ask ($500/mo Delko retainer)
+  - Journeyman Press intro follow-through
+  - Incorporation support ask (~$200–600, Endicott covers as partner)
+- [ ] Legal Sprint Day 2 still outstanding
 - [ ] Michael Abdalla call Friday 2026-06-27 at 11:30 AM
 - [ ] All prior open actions carry forward
 
