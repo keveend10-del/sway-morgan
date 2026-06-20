@@ -88,15 +88,25 @@ No additional venues are currently live.
 
 ## Gully's Pilot Results — Spring 2026
 
-- 255 total check-ins
-- 81% activation rate
-- 26% return rate
+- 69 unique users (Gully's only)
+- 37.7% return rate (2+ visits) — confirmed via direct Supabase query
+- 23.2% reached 3+ visits
+- 11.6% reached 5+ visits
+- 12.2 days avg between 1st and 2nd visit
 - 9-week deployment
 - Zero paid marketing
 - No rewards
 - No incentives
 - No staff workflow changes
 - QR-based check-in
+
+**Combined pilot (Gully's + Endicott Gym): 157 unique users (5 visited both venues — 3.2% cross-venue overlap), ~23% blended return rate**
+Do not blend these in headline stats. Gully's = voluntary repeat behavior. Gym = habit frequency. Different experiments.
+
+**Venue IDs (Supabase):**
+- Gully's: `fc8a0103-b2ab-41dc-aa83-efaa16958301`
+- Endicott Gym: `11e4064c-2a53-4364-a3bf-3dac51f8ad01`
+- The Pickled Onion: `e61a3e2a-ae66-4a22-8505-980abdc16c41` (placeholder, never live)
 
 **Important:**
 

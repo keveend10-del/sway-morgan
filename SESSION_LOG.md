@@ -5,6 +5,46 @@ Running log of every work session. Updated each session so we always know where 
 
 ---
 
+## Session 012 — 2026-06-20
+
+### Focus
+Numbers locked. Gina prep drafted.
+
+### Canonical Pilot Numbers (final — from Supabase query)
+
+| Venue | Unique Users | Return Rate |
+|---|---|---|
+| Gully's | 69 | 37.7% (2+ visits) |
+| Endicott Gym | 93 | ~12% |
+| Combined | 157 | ~23% blended |
+| Cross-venue overlap | 5 (3.2%) | — |
+
+**Spring pilot data will be wiped from Supabase.** Fall launches fresh on the new app. These numbers exist for external conversations (Gina, Deirdre, YC) only — they are not the starting point for Fall metrics.
+
+FOUNDER_CONTEXT.md updated: combined count corrected from 155 → 157.
+
+### Artifacts Created
+
+- **Gina Deschamps Meeting Prep** — Google Doc: https://docs.google.com/document/d/1wXgHCYB5c_OTzZt0g1GSsjuC823ptQxq0yOI6gL2yuE/edit
+
+### Gina Meeting (Tuesday 2026-06-24 9:30 AM)
+
+Two wins only:
+- Win A: Deirdre meeting date on calendar before leaving the room
+- Win B: Gina commits to mention Sway to Deirdre before Cain's outreach lands
+
+Key question: "What does Deirdre care most about heading into this role?"
+Don't pitch. Don't blend numbers. Lead Gully's 37.7% only.
+
+### Open
+- [ ] Review Gina prep doc Sunday
+- [ ] Confirm Deirdre's actual email address
+- [ ] Legal Sprint Day 2 (IP tracker names)
+- [ ] Michael Abdalla call Friday 2026-06-27 at 11:30 AM
+- [ ] All prior open actions carry forward
+
+---
+
 ## Session 001 — 2026-06-08
 
 ### Context at Session Start
@@ -545,3 +585,358 @@ git add SESSION_LOG.md && git commit -m "log: [date] [topic]" && git push
 - Brian Cain reply — pending
 - App Store submission status
 - Wednesday GTM agent fires today at 1 PM ET — check Google Drive for first deliverable
+
+---
+
+## Session 008 — 2026-06-19
+
+### Focus
+External strategy memo review + honest scrap-or-continue debate.
+
+### What Happened
+
+**Reviewed:** Sway Strategy Decision Memo (external PDF, 10 pages). Ruthless assessment of whether to pursue, pivot, or drop.
+
+**Created:** `SWAY_STRATEGY_DECISION.md` — updated internal version correcting the external memo. Key additions:
+- Jack Steen insight integrated (scan habit ≠ venue habit)
+- Node expansion sequencing corrected — solve scan habit before adding nodes
+- Session architecture framing (not just check-in)
+- Metric inconsistency called out explicitly (255 vs 302 check-ins, 26% vs 37% return rate, two conflicting TAMs)
+- YC line preserved verbatim: "Foursquare proved check-in. Blackbird proved venues pay. Whoop proved behavior becomes identity."
+
+### Key Debate — Scrap or Continue?
+
+**Kev's position:** The 26% return rate (37% at Gully's) happened with zero marketing, zero staff explanation, students had no idea what the tap thing was. That's the signal.
+
+**Morgan's honest read:**
+
+Kev's point on organic behavior is valid and upgrades the read on "will students engage with the mechanic." 81% activation from complete strangers with no context is genuinely impressive.
+
+BUT: Fici (22 visits) and Carew (8 visits) — both confirmed:
+- Sway did not change how often they went to Gully's
+- Visit count didn't mean anything to them
+- Neither would notice if Sway disappeared
+- "Bartenders knew my order" = what made them feel like regulars. Not Sway.
+
+Sway measured existing behavior. It did not create new behavior. That's still an open problem.
+
+**Resolution:**
+
+What we tested at Gully's was not the real product. It was a QR poster with no context, no presence summary, no completion engine, no recognition moment. The NFC hallway tap station (locked in Session 001) + bouncer door scan model (Village, Session 007) = first tests of the actual thesis.
+
+**Verdict:** Don't scrap it. But stop calling Spring 2026 proof of the thesis. It's proof students will tap a thing they don't understand. Gate 1 only. Gates 2–5 run in Fall 2026 with the actual product.
+
+### GTM Framework — Early Access Motion
+
+Applied deep tech GTM framework to Sway. Key outputs:
+
+**Most plausible early access motion:** Institutional anchor + door-mechanic venue pairing (not SaaS sales).
+- Track 1: Endicott as founding campus partner — permission structure, not a customer
+- Track 2: Village (Salem State) as off-campus proof point — bouncer door flow → 90%+ activation ceiling vs. Gully's 81%
+
+**First type of org to engage:**
+Campus-adjacent single-operator bars with door check + warm college relationship. Characteristics: 500+ student nights/week, bouncer already stopping everyone, owner already talks about regulars by name, within 0.5 miles of campus, single operator (not chain).
+
+**Credible first win (not revenue):**
+Gully's redeployed Fall 2026 → scan rate 85%+ → 30% return rate within 6 weeks → at least one student scans at both Gully's and Village within same month. That last data point (cross-venue session) is what separates participation graph from a single-venue QR tool.
+
+**Biggest bottleneck:**
+Scan habit vs. presence habit gap. Jack Steen confirmed he kept going to gym but stopped scanning. True repeat visit rate understates Sway's data. Passive detection (NFC/Wallet) becomes critical before adding venue nodes where scanning is non-social. Secondary: Gully's WTP still unvalidated — heading into another free Fall deployment if this isn't resolved.
+
+**3 next actions:**
+1. Confirm Gully's Fall 2026 renewal + get WTP number on the table (even soft: "$50/mo, $100/mo, not sure")
+2. Close Endicott institutional partnership before August — Dean email drafted, send it now
+3. Pre-qualify Village owner — don't pitch yet (Gully's renewal first), but ID the owner and confirm door check runs nightly
+
+### Open Actions
+- [ ] All prior open actions carry forward (see sessions above)
+- [ ] Fix metric inconsistency in all external materials before any investor/partner conversation
+- [ ] Design Fall 2026 as first real product test — not a redeployment of Spring
+- [ ] Confirm Gully's Fall renewal + get WTP number
+- [ ] Send Dean email (Endicott institutional partnership)
+- [ ] Identify Village owner, confirm door check operation
+
+---
+
+### Brand Identity — First Kit (2026-06-19)
+
+Produced full brand starter kit for Sway. Designed for YC application + investor first impressions.
+
+**Framing call:** Dropped "deep tech" label. Accurate frame: infrastructure / participation OS. "Deep tech" invites a standard Sway can't meet yet at one campus bar.
+
+**Tagline (locked):**
+> The memory layer for physical life.
+
+Infrastructure language. No loyalty, no rewards implied. Consistent with thesis.
+
+**Product blurb:** 4 sentences. Honest about stage — positions Spring 2026 pilot data as proof of concept, not proof of scale.
+
+**Key messages by audience:**
+- Investors: Participation OS, new data primitive, completed physical presence > transactions
+- Venue operators: regular-visibility without changing how the floor runs
+- Students: real-life story, actual presence over time (not posts, not check-ins)
+- Campus admins: completion data vs. registration data
+- Cross-venue operators: multi-venue journey validation without staff friction
+
+**Logo concept:**
+Single dot + trailing horizontal line. Presence → accumulating history. Not a pin, not a fingerprint. Infrastructure-appropriate. Works at one session and at 1M sessions.
+
+**Color palette:**
+| Color | Role | Signal |
+|---|---|---|
+| Deep Navy `#0F1A2E` | Primary | Permanence, trust, B2B infrastructure |
+| Warm Off-White `#F5F1EB` | Background | Physical world warmth, campus/hospitality energy |
+| Amber `#C97D2E` | Accent | Memory, recognition, earned — not reward-badge |
+
+**Credibility risk called out:** Gamification aesthetics (badges, progress bars, streaks, punch-card visuals) = instant category misread. Venues won't pay SaaS rates for a stamp card.
+
+**Distinctiveness move:** Own "session" as the product word. Put it in copy, UI, pitch. Nobody in this space has built brand identity around the session as the core unit of physical life.
+
+- [ ] Apply tagline + color direction to YC video/deck
+- [ ] Test "session" language in next venue conversation — see if it lands or needs explanation
+
+---
+
+### Team Building Framework (Harvard Foundry Bootcamp, 2026-06-19)
+
+Source: Foundry bootcamp module — "Building Your Early Team."
+
+**Logged for reference. Applied to Sway's current hiring question.**
+
+Key principles from the module:
+- Attitude over experience at this stage — curiosity + grit over pedigree
+- Best early hires: hands-on enough to crank, capable of growing into leadership
+- Business Development: founders lead first pilots (Kev doing this correctly), then hire to replicate + scale
+- Culture is set by hiring choices and how you behave under pressure — not a poster. Early = formative.
+- Misalignment: set clear expectations, give honest feedback, act. Waiting too long erodes credibility.
+- Letting go: document evidence before the conversation, never let it be a surprise.
+
+**Morgan's read for Sway right now:**
+
+Kev's gap is not BD or GTM. It's technical.
+
+The deck had a false "founding engineer (conversations active)" claim — removed in Session 002. App work in Sessions 005–006 is Kev building it solo. That's a bottleneck.
+
+The Foundry module question that applies directly: *"Which capability bottleneck is currently limiting your learning velocity and can a targeted hire or contract remove it this quarter?"*
+
+Answer: engineering velocity. App Store target June 17 was set. Status unknown. Every week without a technical co-founder or contractor = slower Fall 2026 prep.
+
+**What this changes:**
+- The "exploring technical collaborator" framing is too passive. It's the #1 unresolved structural risk.
+- Before Fall 2026 redeployment, Kev needs at minimum a strong part-time technical collaborator who can own the NFC tap station build.
+- YC application will surface this — panels will ask "where's your CTO?" and "solo technical founder or solo non-technical founder" are very different reads.
+
+**Open question to address:**
+- [ ] Is App Store submission actually done (June 17 target)?
+- [ ] Is there a specific technical co-founder or contractor in pipeline — or still exploratory?
+- [ ] YC video + deck: how is Kev framing the team slide honestly?
+
+---
+
+## Session 009 — 2026-06-19 (same day, Legal Hygiene Sprint)
+
+### Focus
+Sway Now Sprint: Legal + Validation Hygiene. Day 1 execution.
+
+### What Happened
+
+Kev brought in a full 7-day legal hygiene sprint plan. Aligned with thesis and summer 80/20. Executed Day 1 in full.
+
+**Folder structure created in Google Drive:**
+Main folder: `Sway Legal Hygiene — Summer 2026`
+Subfolders: Company Formation / IP & Contributors / Venue Agreements / Privacy & Terms / Pilot Metrics & Proof / Advisor Agreements / Future Payments — Not Active
+
+**Documents created:**
+
+| Document | Location | Status |
+|---|---|---|
+| Sway Product Scope & Legal Positioning Memo | Root of Legal Hygiene folder | ✅ Created |
+| Sway Contributor & IP Tracker | IP & Contributors | ✅ Created (Google Sheet) |
+| Gully's Proof Summary — Spring 2026 | Pilot Metrics & Proof | ✅ Created |
+
+**Key flag on Gully's numbers:**
+
+Proof Summary uses Gully's-only stats (69 unique users, 37.7% return rate) per FOUNDER_CONTEXT.md. However, SESSION_LOG Session 001 shows 67 users for Gully's. Discrepancy of 2 users. Resolve before using externally: confirm in Lovable Supabase SQL editor whether 67 or 69 is correct after filtering out test accounts (likely Keveen + Jack).
+
+### Remaining Sprint (Days 2–7)
+
+| Day | Task |
+|---|---|
+| Day 2 | Finalize Gully's Proof Summary numbers. Add Supabase query results. |
+| Day 3 | Draft Sway Venue Pilot Agreement — v0.1 (Venue Agreements folder) |
+| Day 4 | Draft Sway Data Map — v0.1 (Privacy & Terms folder) + plain-English consent statement |
+| Day 5 | Email 2–3 startup lawyers (Brian SCORE / Gina / David Ferguson referrals). Draft ready (create Gmail draft). |
+| Day 6 | Advisor bench list — 2–4 people only. No formal board. |
+| Day 7 | Package into Sway Summer Validation Packet. |
+
+### Open Actions (carry-forward + new)
+- [ ] All prior open actions
+- [ ] Confirm Gully's user count: 67 or 69 (Supabase SQL, exclude test accounts)
+- [ ] Fill in actual names in IP Tracker (engineer candidate, designer, any contributors)
+- [ ] Confirm: engineer candidate — has anything been signed?
+- [ ] Get David Ferguson referral name(s) for startup lawyer
+- [ ] Get Brian (SCORE) referral for startup lawyer
+- [ ] Day 2–7 sprint execution (see table above)
+
+---
+
+_Next session: Day 2 sprint. Confirm Gully's user count. Fill in IP tracker names._
+
+---
+
+## Session 010 — 2026-06-19 (same day, MVG2M Path)
+
+### Focus
+Minimum viable go-to-market path mapping — next 6–12 months.
+
+### What Happened
+
+Full MVG2M sequencing exercise. Applied to Sway's current position: one completed pilot, zero paying venues, Fall 2026 as the next real deployment window.
+
+---
+
+### 5 Critical Uncertainties
+
+| # | Uncertainty | Evidence Required | Who Believes It | Form |
+|---|---|---|---|---|
+| 1 | Will venues pay before cross-venue density exists? | 2–3 operator WTP conversations + signed LOI or paid trial | Gully's or Village owner | Signed agreement |
+| 2 | Does 37.7% return rate hold at a second venue? | Same methodology at venue #2 in less captive context | Kev + investors | Supabase cohort data |
+| 3 | Do students transfer scan behavior cross-venue? | % of Gully's Fall cohort who also scan at Village | Gully's operator + investors | Cross-venue query: user_id at 2+ venue_ids |
+| 4 | Is scan habit fragile without passive detection? | Fall scan persistence vs. Spring + door scan rate at Village | Kev (product priority) | Scan rate vs. door count comparison |
+| 5 | Does completion model change behavior? | Fall return rate (completion on) vs. Spring baseline (scan-only) | Product direction | Cohort comparison, same venue, same method |
+
+---
+
+### Minimum Viable Market Entry Definition
+
+**Two venues on recurring paid contracts within the same student population, with cross-venue visit data confirming identity transfer, and return rate at or above the Spring 2026 Gully's baseline (37.7%).**
+
+Below that = paid pilot. Above that = product.
+
+---
+
+### 6-Stage Path (Jun 2026 → Jan 2027)
+
+**Stage 1 — Evidence Hardening (Jun–Aug 2026)**
+- Pull full frequency distribution from Supabase (1/2/3/5+ cohorts, time-between, session-day-of-week)
+- 8–10 student interviews: why they scanned again, what they remember, whether they told anyone
+- 3 operator conversations: Gully's (renewal + price), Village (door scan pitch), one more. These are sales calls. Present data, ask what it's worth.
+- HBS bootcamp (August): pitch sharpening + WTP problem clarity — not building
+- YC application finalized
+- **Signal to advance:** Gully's verbal commitment to paid Fall renewal at any price above zero, OR Village LOI
+
+**Stage 2 — Fall Setup + First Paid Contract (Aug–Sep 2026)**
+- Close Gully's Fall renewal as paid agreement — even $100/month. Payment is the signal, not the amount.
+- Close Village door scan deployment — "you already stop everyone at the door, we add 5 seconds"
+- Build TICKET-002 → TICKET-006 from SWAY_NATIVE_LAYER_PLAN (presence_sessions, dwell, completion close, stats)
+- Completion model must be live at Gully's from Day 1 of Fall — not a mid-semester add
+- Confirm Endicott institutional partnership (Dean email, Cain loop-in)
+- **Signal to advance:** Both Gully's and Village live on Day 1 of Fall semester
+
+**Stage 3 — Fall Redeployment + Baseline Beat (Sep–Oct 2026)**
+- Targets vs. Spring: 150+ users (vs. 69), 40%+ return rate (vs. 37.7%), 25%+ at 3+ visits (vs. 23.2%), 10-day avg return (vs. 12.2), Village 85%+ activation via door scan
+- Weekly Supabase pulls — not monthly. Catch signal early.
+- Mid-semester student interviews: is anyone noticing their history?
+- **Signal to advance:** Gully's at or above Spring baseline AND Village generating scan data with cross-venue user IDs appearing
+
+**Stage 4 — Cross-Venue Signal (Oct–Nov 2026)**
+- Query: % of Gully's Fall cohort who also scanned at Village
+- First operator value delivery: send Gully's their regular list. Who came back 3+? Who came to trivia and returned?
+- Threshold: ≥15% cross-venue = thesis holds. <10% = venues are isolated, not an OS. Adjust mechanics before adding more venues.
+- **Signal to advance:** cross-venue overlap confirmed + at least one operator says the data changed something they did
+
+**Stage 5 — Operator Renewal + Category Signal (Nov 2026–Jan 2027)**
+- Gully's semester-2 renewal — price goes up or stays, but must renew without re-selling the concept
+- Village renewal or extension
+- First external narrative: one piece (blog post, YC section, investor deck) that names Participation OS category using Fall data
+- Pipeline conversations with 2nd campus — not pitch, conversation only
+- **Signal to advance:** both venues renew without re-pitch
+
+**Stage 6 — Market Entry (Jan 2027)**
+- Two venues on recurring contracts
+- Cross-venue identity data in hand
+- Participation graph forming (returning users who scanned at 2+ venues)
+- Investor conversation begins with real density data
+
+---
+
+### Dominant Constraint
+
+**Fall semester start date.** Everything gates on students returning in September 2026. No user population during summer to run experiments. ~10 weeks (mid-June to late August) to close two venue agreements, build the completion model, analyze Spring data, and run interviews. If any slip, Fall window is lost. Next window: Spring 2027.
+
+This is a calendar constraint, not a product bottleneck. Summer = evidence + operator conversations + product prep. Not exploration.
+
+---
+
+### Productive-But-Doesn't-Retire-Risk Activity
+
+**Building the venue dashboard beyond basic return rate visibility.** Filters, date ranges, exports, demographic breakdowns, event tagging, custom reports — all feel like product development. None of it answers "will Gully's renew and pay?" That answer comes from a 30-minute call showing the owner who came back. The data closes the deal. The dashboard doesn't.
+
+---
+
+### Open Actions (new from this session)
+- [ ] Confirm Gully's WTP — any number above zero by end of July
+- [ ] Identify Village owner, confirm door check runs nightly (don't pitch yet — Gully's renewal first)
+- [ ] Completion model live in prod before September (TICKET-002 → 006)
+- [ ] Cross-venue query ready in Supabase before Village goes live — need it Day 1
+
+_All prior open actions carry forward._
+
+---
+
+## Session 011 — 2026-06-19 (same day, Recap Feature + Design)
+
+### Focus
+Sway Recap feature — design direction, Canva prototype, engineering prompt.
+
+### What Happened
+
+**Recap design critique:**
+Reviewed two rough draft designs (dashboard UI + student recap card). Identified three core problems with the recap card:
+1. Color mismatch — recap used purple/orange gradients, dashboard uses dark/gold. Two different products.
+2. "Status points" / "+24 pts" language = loyalty app framing. Kills thesis.
+3. "Shared Moments" photo grid = Instagram. Not participation OS.
+
+**Design direction locked:**
+- Background: `#0A0A0A`
+- Gold accent: `#C9A84C`
+- Text primary: `#F5F0E8`
+- No purple, no gradients in layout, no points language
+- Language: "sessions together" not "interactions." "Regular status" not "score."
+- Footer: "You showed up. / Sway remembered." — full stop, no CTA button
+
+**Built static HTML prototype:**
+- File: `morgan/sway-recap.html`
+- 390×844px iPhone canvas
+- Sections: month header, hero stat (18 sessions), VIP Regular pill badge, "Who you showed up with" ranked list, 7-column bar chart (Thu/Fri/Sat peak), tagline footer
+- Subtle gold ambient glow only — no gradients in structural layout
+- Font: Inter (SF Pro equivalent)
+
+**Canva version created:**
+- Added to keveend10@gmail.com Canva account
+- Edit URL: https://www.canva.com/d/johmJYpLfoRZeoz
+
+**Engineering prompt produced:**
+Full spec for building the Recap feature in the Sway app codebase. Ready to paste into Claude Code from repo root. Covers:
+- Part 1: Supabase seed script (`scripts/seed-recap-demo.ts`) — 42 sessions for keveend10@gmail.com across Fall 2026, 8 fake friend accounts, realistic Thu/Fri/Sat distribution, shared session logic
+- Part 2: `/recap` route — full Spotify Wrapped × BeReal × Obsidian design. Sections: identity header, hero stat with count-up animation, GitHub-style heatmap, Obsidian force-directed social graph (SVG + Framer Motion, no D3), ranked people list, bar chart, venue breakdown, shareable card
+- Part 3: Route + nav wiring, student-only guard, live Supabase data with demo fallback
+- Design system: same `#0A0A0A`/`#C9A84C` system, no new libraries without justification
+
+**Key product insight reinforced:**
+The Obsidian graph (you at center, friends as weighted nodes) is the screenshot moment. That's the thing students share. Framer Motion spring physics, staggered entry, tap to expand name + count. Apple-level spacing throughout.
+
+### What This Unlocks
+- Demo-ready for investor conversations before Fall relaunch
+- Student-facing proof that Sway produces a meaningful identity record
+- Shareable card = organic distribution mechanism (BeReal mechanic)
+- Heatmap = Whoop-style personal identity reinforcement
+
+### Open Actions (new)
+- [ ] Run engineering prompt in Sway Xcode repo
+- [ ] Seed demo data for keveend10@gmail.com against Supabase dev project
+- [ ] Verify `/recap` route renders correctly on mobile
+- [ ] Test Obsidian graph interaction (tap → name reveal)
+- [ ] Confirm shareable card export works for screenshot
+
+_All prior open actions carry forward._
