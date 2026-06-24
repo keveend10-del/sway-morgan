@@ -95,6 +95,137 @@ Eligible: <$500K revenue ✓, <$1M raised ✓, US-based ✓, Founder ✓
 
 ---
 
+---
+
+## Session 015 — 2026-06-24
+
+### Focus
+Strategic synthesis. Investor calibration, Catalyst deck structure, cultural brand frame, AI product architecture, payment sequencing.
+
+### Investor Read — External Calibration
+
+Simulated investor read from website alone: **6.5/10.** Meeting-worthy. Not check-writing.
+
+**Bull case:** Clever wedge into real-world social identity. Lightweight, emotionally resonant. Early check-in behavior exists without discounts. If campus graphs build → may own new data/identity layer.
+
+**Bear case:** Beautifully branded check-in/loyalty product. Weak monetization, privacy concerns, behavior may not survive beyond novelty or founder-led pilots. Venues may like it but not pay. Students may not check in consistently without rewards or social pressure.
+
+**What moves grade from 6.5 to 8+:**
+1. Retention cohorts — 1st-to-2nd visit rate, 7/14/30-day return
+2. Signed venue pipeline — even one LOI
+3. Pricing evidence — any number a venue has agreed to
+4. Precise privacy/data model — what Sway collects, how used, who owns it
+
+### Key Decisions Made
+
+**1. Catalyst deck: 12 slides, structure locked.** See `CATALYST_DECK_STRUCTURE.md`. AI appears in slides 6, 10, 12 only.
+
+**2. Cultural brand frame locked:**
+- "Technology for people who want to live more of their life offline."
+- "Tap once. Put your phone away. Live your life. Sway remembers."
+- Student-facing: memory, timeline, regular status, Sway Card, semester recaps
+- Venue-facing: who comes back, which nights build loyalty, lightweight launch, no POS/payment/staff changes
+
+**3. Foursquare = POI intelligence layer only.** Sway owns check-in, identity, sessions, completion logic, and the intelligence layer. Foursquare enriches place metadata. Never Foursquare as the identity backend.
+
+**4. Physical + digital Sway Card = central product object.** Physical = passport/artifact. Digital = profile, pass, Apple Wallet later. The card makes Sway feel like identity, not a QR check-in tool.
+
+**5. AI framing locked:**
+- AI is the multiplier, not the product
+- Core line: "Sway creates the verified participation data layer. AI turns that data into decisions."
+- Background Presence Agent concept: routing, identity resolution, presence confidence, fraud detection, friction monitoring, recognition timing, operator recommendations. User never sees the AI — they see less friction.
+
+**6. Payment sequencing confirmed:**
+- Phase 1 (now): Participation ID + venue SaaS
+- Phase 2: Memberships/subscriptions (venue-sold, Sway takes a %)
+- Phase 3: Card-linked payments through regulated partner
+- Phase 4: Stablecoin settlement (background, through licensed partners)
+- Deck treatment: one line only on the business model slide. Never lead with payments.
+
+**7. Privacy is a stated investor concern.** Must be addressed explicitly in deck and on website. Frame: privacy-conscious participation and venue analytics SaaS. Students own their history. Venues see patterns, not raw identities.
+
+### Artifacts Produced / Updated
+- `SESSION_LOG.md` — this entry
+- `FOUNDER_CONTEXT.md` — added public brand frame + investor positioning sections
+- `CATALYST_DECK_STRUCTURE.md` — full 12-slide breakdown (new file)
+
+### Website Copy Brief
+Full brief drafted for website rewrite (words only, no redesign). Direction:
+- Hero headline: "The new check-in layer for real life."
+- Lead with student emotion before venue analytics
+- Venue: practical, simple, ROI-oriented, no overclaiming
+- Privacy language: simple and reassuring
+- CTAs: Join early access / Request a pilot / Bring Sway to your campus
+
+### Open
+- [ ] Apply website copy brief to actual site — pull brief from today's session notes
+- [ ] Privacy/data model document — required to move investor grade from 6.5 to 8+
+- [ ] All prior open actions carry forward
+
+---
+
+## Session 013 — 2026-06-24
+
+### Focus
+GBrain infrastructure check.
+
+### What Happened
+
+Ran gbrain status check. Findings:
+
+- Config: `~/.gbrain/config.json` ✓
+- Engine: pglite, DB at `~/.gbrain/brain.pglite` ✓
+- Version: `0.42.52.0` (up to date)
+- Last sync: ran today (W26 audit entries present)
+- **Binary: not in PATH** — `gbrain` CLI command not found
+- MCP: not registered in `~/.claude/settings.json` or `settings.local.json`
+
+**4 oversize page warnings** (>50KB, exceeds 50K warn threshold):
+- `.claude/skills/marketing-ideas/references/marketing-ideas-database` — 126KB
+- `sway_native_layer_plan` — 55KB
+- `sway_business_model` — 87KB
+- `session_log` — 51KB
+
+### Open
+- [ ] Reinstall gbrain CLI so binary is in PATH (run `/setup-gbrain`)
+- [ ] Re-register MCP server after CLI reinstall
+- [ ] All prior open actions carry forward
+
+---
+
+## Session 014 — 2026-06-24
+
+### Focus
+GStack + GBrain agentic workflow planning. Village outreach status logged.
+
+### Village Outreach — Status
+
+Email sent to Village (Salem bar) owner. **No reply received.** Possibly in spam.
+
+- Do NOT pitch yet per expansion sequencing — Gully's Fall renewal must be confirmed first
+- Next step: check if reply landed in spam, or find owner's direct contact via alternative channel
+- Village context: Salem State (~7,500 students) + Endicott (~3,500) catchment. Bouncer door check = 90%+ activation ceiling. Strong off-campus proof point candidate.
+- Do NOT send follow-up cold email until Gully's renewal locked
+
+### GStack + GBrain — Agentic Workflows Mapped
+
+Six concrete workflows identified this session:
+1. Supabase cohort analysis agent (frequency distribution — biggest open unknown)
+2. YC application agent (pulls full gbrain context, drafts video script + deck bullets)
+3. Venue intelligence agent (research Village owner, store findings in gbrain)
+4. Morning brief routine (already running via scheduled agents)
+5. Engineering ticket executor (TICKET-002 → 006 via gbrain code context)
+6. Interview synthesis pipeline (dump transcripts → extract facts → load to gbrain)
+
+Priority order: #1 cohort analysis → #2 YC agent (Catalyst deadline July 1).
+
+### Open
+- [ ] Check spam for Village owner reply
+- [ ] Do NOT follow up Village until Gully's Fall renewal confirmed
+- [ ] All prior open actions carry forward
+
+---
+
 ## Session 001 — 2026-06-08
 
 ### Context at Session Start

@@ -24,6 +24,43 @@ Students build a record of where they show up. Venues finally know who actually 
 
 ---
 
+## Public Brand Frame
+
+**Cultural positioning (2026-06-24):**
+
+Sway is technology for people who want to live more of their life offline — while still getting memory, recognition, and reward for the real things they do.
+
+Most apps pull you into the phone. Sway is the opposite:
+
+> **Tap once. Put your phone away. Live your life. Sway remembers.**
+
+That is the consumer frame. The product benefits of digital identity — memory, status, personalization, recaps — without asking students to post, scroll, perform, or manage another feed.
+
+**Public positioning by audience:**
+
+| Audience | Lead message |
+|---|---|
+| Students | Memory, timeline, regular status, Sway Card, semester recaps. Your real-world life deserves a record. |
+| Venues | Know who comes back. Know which nights build loyalty. No POS replacement. No payment changes. No staff workflow change. |
+| Investors | Sway is the check-in and identity layer for real-world social life, starting with campus communities. |
+
+**Key public phrases (cleared for use):**
+- The new check-in layer for real life
+- Your real life deserves a timeline
+- Become a regular
+- Know who comes back
+- Built for campus communities
+- Wrapped for real life
+
+**What stays private:**
+- Exact scoring or graph mechanics
+- Data model details
+- Growth playbook
+- Competitive moat mechanics
+- Any roadmap past Phase 2
+
+---
+
 ## The Core Building Block: Session
 
 The core primitive is not a check-in. It is a session.
@@ -199,6 +236,32 @@ Sway connects Gully's, the gym, events, clubs, pop-ups, and local venues into on
 **To a venue owner:** "Sway helps you know who actually comes back and who completes the experiences you care about — whether that's trivia night, Mug Club, or a two-location promo. It runs beside your current systems. Staff don't need to change anything."
 
 **To an investor:** "Sway is building the Participation OS for real-world communities, starting with dense campus and hospitality ecosystems. We turn completed physical presence into identity, recognition, operator signal, and eventually session-based commerce."
+
+---
+
+## Investor Positioning
+
+**Current investor grade (website-only read): 6.5/10.** Meeting-worthy. Not check-writing without proof.
+
+**Bull case investors see:** Clever wedge into real-world social identity. Lightweight, emotionally resonant for students. Behavior exists without discounts. Campus graph potential = new data/identity layer.
+
+**Bear case investors see:** Check-in/loyalty product with weak monetization, privacy concerns, behavior may not survive beyond novelty or founder-led pilots.
+
+**What moves the grade from 6.5 to 8+:**
+1. **Retention cohorts** — 1st-to-2nd visit rate, 7/14/30-day return rate. We have the raw data. Need to package it.
+2. **Signed venue pipeline** — Even one LOI. Gully's renewal is the unlock.
+3. **Pricing evidence** — Any number a venue has agreed to. Even $50/month verbal.
+4. **Precise privacy/data model** — What Sway collects, how it's used, who owns it, how it's protected. Privacy is a stated investor concern — address explicitly.
+
+**AI framing for investors:**
+- AI is the multiplier, not the product.
+- Core line: "Sway creates the verified participation data layer. AI turns that data into decisions."
+- Background AI/agent layer handles: routing, identity resolution, presence confidence, fraud detection, friction monitoring, recognition timing, operator recommendations. User never sees it — they see less friction.
+- Deck placement: Slides 6 (dedicated), 10 (as SaaS feature), 12 (Catalyst milestone). No more.
+
+**Payment sequencing — one line for investors:**
+> "Once Sway becomes the trusted participation ID, we can expand into venue memberships, card-linked rewards, and payment settlement through regulated partners."
+That is the full payment pitch in the Catalyst deck. Save the mechanics for Q&A.
 
 ---
 
