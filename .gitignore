@@ -4,3 +4,5 @@
 morgan.code-workspace
 .DS_Store
 *.env
+.gstack/
+.gbrain-source
